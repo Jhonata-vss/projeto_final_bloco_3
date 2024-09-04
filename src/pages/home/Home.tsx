@@ -1,5 +1,3 @@
-import React from 'react'
-
 function Home() {
   return (
     <section className="bg-blue-400 flex justify-center min-h-screen">
