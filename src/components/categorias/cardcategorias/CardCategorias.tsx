@@ -14,7 +14,7 @@ function CardCategorias({categoria}: CardCategoriaProps) {
         <p className='p-8 text-3xl bg-white h-full'>{categoria.nome}</p>
         <div className="flex">
             <Link to={`/editarCategoria/${categoria.id}`}
-                className='w-full text-slate-100 bg-orange-500 hover:bg-orange-400
+                className='w-full text-slate-100 bg-blue-500 hover:bg-blue-500
                           flex items-center justify-center py-2'>
                 <button>Editar</button>
             </Link>
